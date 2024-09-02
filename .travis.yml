@@ -34,9 +34,11 @@ jobs:
       script:
         - java -jar ./build/libs/hello-world-java-V1.jar
 
+
 notifications:
   email:
     recipients:
       - chengweelee0000@1utar.my
+      - example@email.com
     on_success: always
     on_failure: always
